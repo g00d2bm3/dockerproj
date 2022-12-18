@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Build image
-docker build --tag=demolocal
+docker build --tag=demolocal .
 
 # List docker images
 docker image ls
